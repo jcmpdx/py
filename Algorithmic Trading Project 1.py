@@ -7,6 +7,7 @@ import os
 
 os.chdir(r'C:\Users\jc\PycharmProjects\untitled\algorithmic trading project 1 starter file')
 stocks = pd.read_csv('sp_500_stocks.csv')
+# have secrets.py with the API token in the same folder. secrets.py will contain the API Token. For testing, use IEX_CLOUD_API_TOKEN = 'Tpk_059b97af715d417d9f49f50b51b1c448'
 from secrets import IEX_CLOUD_API_TOKEN
 
 symbol = 'AAPL'
