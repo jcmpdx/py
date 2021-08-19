@@ -9,7 +9,7 @@ o2 = "'{}'".format(output)
 pc.copy(o2)
 messagebox.showinfo('Done!','Results in your clipboard. paste in a text document to view results')
 
-# This py file takes text on multiple rows/lines, and puts them all on 1 line. It also wraps each string in single-quotes, and puts a common between them. 
+# This py file takes text on multiple rows/lines, and puts them all on 1 line. It also wraps each string in single-quotes, and puts a comma between them. 
 # Useful when you need to convert a list of items into a string you can filter on.
 
 # Example - it'll convert the following...
