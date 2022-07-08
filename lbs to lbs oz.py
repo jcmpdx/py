@@ -7,4 +7,4 @@ lbs = math.trunc(w)
 oz = w - lbs
 oz = 16 * oz
 oz = round(oz,2)
-print(f'{lbs}lbs. {oz}oz.')
+print(f'{lbs}lbs. {oz}oz. is the result of {w}lbs.')
